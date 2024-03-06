@@ -2,6 +2,7 @@
 title: womp womp
 published_at: 2024-03-06
 snippet: This is my stuff.
+disable_html_sanitization: true
 ---
 
 Hello, world!
