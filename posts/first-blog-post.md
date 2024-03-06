@@ -9,7 +9,7 @@ Hello, world! Add all static files to static.
 
 ![crying creature](/static/images/cri.jpg)
 
-<iframe src="https://editor.p5js.org/sturrpzz/sketches/tJOEC7iU1"></iframe>
+<iframe src="https://editor.p5js.org/sturrpzz/sketches/tJOEC7iU1" width="100%" height="242px"></iframe>
 
 # This is h1
 
