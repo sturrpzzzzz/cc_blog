@@ -77,4 +77,4 @@ And evidently, it didn't work so...
 
 [thisgrey Sketch 2.](https://editor.p5js.org/sturrpzzzzz/sketches/TXxgN_d9F)
 
-
+I used a different approach for this one. I declared the variable counter, 
