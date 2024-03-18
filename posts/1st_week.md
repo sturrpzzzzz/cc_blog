@@ -28,6 +28,7 @@ The y coordinates of the vertical lines stay the same to ensure that they are of
 
 ## Final sketch.
 
+<iframe width="300" height="342" src="https://editor.p5js.org/sturrpzzzzz/full/nbPJmblp-"></iframe>
 
 
 
