@@ -2,6 +2,7 @@
 title: Alice's Bizarre Coding Adventure.
 published_at: 2024-03-06
 snippet: Week 1 progress.
+disable_html_sanitization: true
 ---
 
 # Creating grids.
@@ -28,7 +29,8 @@ The y coordinates of the vertical lines stay the same to ensure that they are of
 
 ## Final sketch.
 
-<iframe width="300" height="342" src="https://editor.p5js.org/sturrpzzzzz/full/nbPJmblp-"></iframe>
+<iframe width="300" height="342" src="https://editor.p5js.org/sturrpzzzzz/sketches/nbPJmblp-"></iframe>
 
+# RR recreation: [thisgrey](thisgrey.com)
 
 
