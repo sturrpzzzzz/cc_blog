@@ -33,4 +33,48 @@ The y coordinates of the vertical lines stay the same to ensure that they are of
 
 # RR recreation: [thisgrey](thisgrey.com)
 
+## Train of thoughts.
+
+At first, I thought of using for loop because I thought it was a loop of colours. My idea was to write something like
+
+```js
+{
+    for (let i = 0; i < 256; i += 7) {
+        if (i > 0; i < 256) {
+            fill (256 / i);
+        } else {
+            fill (i / 256);
+        }
+    }
+}
+```
+
+Honestly, I'm not sure if this code makes any sense. I was just trying to have i go from 0 to 256 and back, but then I realised that the greyscale values do not go in a loop, they go up and down and repeat. So I decided to seperate this process in 2 parts: one for making the value go up, one for making it go down.
+
+### Attempt 1
+
+[thisgrey Sketch 1.](https://editor.p5js.org/sturrpzzzzz/sketches/hIGysEzHU)
+
+I decided to use an everchanging value in my for loop, in this case, it's `frameCount`. I just had frameCount divided with a random number to change how fast the colour was changing. Limiting the value of i between 0 and 255 and i incrementing, I pretty much assigned it to a (also) random math equation `bgColour = color(i * (t + 0.5));`, and it worked! The background colour went from black to white.
+
+While knowing that this would not work because I didn't need a loop, I pushed it and used the for loop anyway.
+
+```js
+{
+    for (let i = 0; i < 256; i++) {
+    if (i = 255) {
+        bgColour = color(i * (t + 0.5));
+    } else {
+        bgColour = color(i / (t + 0.5));
+    }
+    }
+}
+```
+
+And evidently, it didn't work so...
+
+### Attempt 2
+
+[thisgrey Sketch 2.](https://editor.p5js.org/sturrpzzzzz/sketches/TXxgN_d9F)
+
 
