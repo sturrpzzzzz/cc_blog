@@ -1,7 +1,7 @@
 ---
 title: Alice's Bizarre Coding Adventure.
 published_at: 2024-03-06
-snippet: Week 1 progress.
+snippet: Chapter 1.
 disable_html_sanitization: true
 ---
 
@@ -99,6 +99,8 @@ I used a different approach for this one. I declared the variable counter and ma
 
 [thisgrey Sketch 3.](https://editor.p5js.org/sturrpzzzzz/sketches/1lUqdx7n7)
 
+<iframe src="https://editor.p5js.org/sturrpzzzzz/full/1lUqdx7n7"></iframe>
+
 After asking for Thomas's feedback, for this sketch, I used sine waves to change the greyscale value. I declared several variables and stored them the values of `frameCount * [random number]`, using them to differ the colour changing speed. For each variables declared, I declared a constant and gave them the value of `[variable name] * TAU`. Because the phase signal is between 0 and 1, the values of all constants are between 0 and TAU. 
 
 Declaring the variable `sinusoid` and assigning it the value of sin, with sin's value always limited between -1 and 1, `sinusoid =+ 1` is always limited between 0 and 2, and `sinusoid =* 128` is always limited between 0 and 256, which is the greyscale limit. After that, I assign the value of sinusoid to the shapes' colours.
@@ -119,4 +121,4 @@ Declaring the variable `sinusoid` and assigning it the value of sin, with sin's 
 }
 ```
 
-<iframe src="https://editor.p5js.org/sturrpzzzzz/full/1lUqdx7n7"></iframe>
+
