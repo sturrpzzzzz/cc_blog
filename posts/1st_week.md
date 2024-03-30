@@ -77,4 +77,46 @@ And evidently, it didn't work so...
 
 [thisgrey Sketch 2.](https://editor.p5js.org/sturrpzzzzz/sketches/TXxgN_d9F)
 
-I used a different approach for this one. I declared the variable counter, 
+I used a different approach for this one. I declared the variable counter and made it so that when i reaches 255, counter is true, and when counter is true, i's value decrements. When i reaches 1, counter is false, and i's value increments. That was the idea anyway, because it didn't work and froze my browser instead.
+
+```js
+{
+    let counter = 0;
+  for (let i = 0; i < 256;) {
+    bgColour = color(i);
+    if (i == 255){
+      counter = 1;
+    }
+    if(counter == 0) {
+      i++
+    } else if (counter == 1){
+      i--
+    }
+}
+```
+
+### Attempt 3
+
+[thisgrey Sketch 3.](https://editor.p5js.org/sturrpzzzzz/sketches/1lUqdx7n7)
+
+After asking for Thomas's feedback, for this sketch, I used sine waves to change the greyscale value. I declared several variables and stored them the values of `frameCount * [random number]`, using them to differ the colour changing speed. For each variables declared, I declared a constant and gave them the value of `[variable name] * TAU`. Because the phase signal is between 0 and 1, the values of all constants are between 0 and TAU. 
+
+Declaring the variable `sinusoid` and assigning it the value of sin, with sin's value always limited between -1 and 1, `sinusoid =+ 1` is always limited between 0 and 2, and `sinusoid =* 128` is always limited between 0 and 256, which is the greyscale limit. After that, I assign the value of sinusoid to the shapes' colours.
+
+```js
+{
+  let p = frameCount * 0.2 // changes the speed
+  p %= 60 // limit value at 60
+  p /= 60 // phase signal is between [ 0, 1 ]
+  
+  const angle = p * TAU    // [ 0, TAU ]
+  
+  let sinusoid = sin (angle) // [ -1, 1 ]
+  sinusoid += 1              // [  0, 2 ]
+  sinusoid *= 128 // amplitude  [  0, 256]
+  
+  background(sinusoid);
+}
+```
+
+<iframe src="https://editor.p5js.org/sturrpzzzzz/full/1lUqdx7n7"></iframe>
