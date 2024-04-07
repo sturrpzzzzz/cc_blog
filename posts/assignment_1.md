@@ -87,7 +87,7 @@ Here is the sketch for Womp's expressions.
 
 ## Bubbles
 
-The bubbles were simple because I had made them before, so I'm not sure what to comment on this.
+The bubbles were simple because I had made them before, so I'm not sure what to comment on this. I'm just saying, being able to click out bubbles is my childhood dream and I am now happy.
 
 <iframe src="https://editor.p5js.org/sturrpzzzzz/full/YfJ0ad8ai"></iframe>
 
@@ -97,4 +97,61 @@ Like I said, my idea was inspired by a spring sketch, so here were the original 
 
 ![original variables](static/Screenshot 2024-03-25 032331.png)
 
+It took me a while to understand everything that was going on in the [original spring sketch](https://editor.p5js.org/sturrpzzzzz/sketches/qqZt0QgM0). Everything that I needed to note down to explain the code are in the comments in my sketch, so I won't explain it again here.
 
+There was a point when Womp wouldn't move because I didn't fully understand the code and didn't use the `baseWidth` variable in Womp's parameters. To word it correctly, I only used constants in Womp's parameters at first and wondered why he wasn't moving... but hey, we learn through mistakes, no matter how dumb they are.
+
+![moved yay](static/Screenshot 2024-03-26 011451.png)
+
+After I used `baseWidth` in Womp's parameters, everything was good to go :joy:
+
+The same thing happened to Womp's eyeballs. At first, I only used constants in the ellipses' parameters, so they weren't moving with Womp's body. Then, I did the same thing and used `baseWidth` and now Womp's eye goes from his right to his left as gets stretched, which is very funny to me for some reason. Then, I added a cartoonish spring sound that plays every time Womp is released.
+
+I did say that I wanted to use the same colour scheme as RR's website, but considering how Womp turns blue and the bubbles are transparent (as they should be), a blue background colour would overpower these colours, so I opted for a darker background instead. I didn't have any particular reason why I chose purple, I just like the purple sky, and it really helps the other elements of the sketch pop. However, a pure purple background seemed boring, because the sky is never one singular colour, so I made it a gradient instead. It turned out great in my opinion.
+
+![musicfail](static/Screenshot 2024-03-26 213556.png)
+
+This was my first attempt to playing and pausing the background music. I wanted the music to be autoplayed at first, so I didn't even bother to make a button, which was a very silly idea... The idea was that when the ":3" text box is clicked, the music would stop, but if not, the music would keep looping. It stayed an idea because obviously it didn't work...
+
+So I ended up just making a button for it, because taking shortcuts isn't the way to go. I created a custom function for the audio toggle:
+
+```js
+{
+    function togglePlaying() {
+  if (!song.isPlaying()) {
+    song.play();
+    song.setVolume(0.3);
+  } else {
+    song.stop();
+  }
+}
+}
+```
+
+And it worked. Yay. However, I realised that the spring sound would play no matter where I clicked on my sketch, so I added a condition in the function `mouseReleased()`
+```js
+{
+    move = false;
+
+    if (move) {
+    springSound.play();
+    }
+}
+```
+which didn't work. So I asked Thomas and apparently I had it in the wrong order... It should have been 
+```js
+{
+  if (move) {
+   springSound.play();
+  }
+  
+  move = false;
+}
+```
+and with that, my assignment 1 is done.
+
+Or so I thought, because on April 8th, I opened my sketch in fullscreen for the first time and realised the eye was completely off where it should have been. Awesome. Nothing I can do about it now...
+
+# Final sketch
+
+<iframe src="https://editor.p5js.org/sturrpzzzzz/full/STA44SMMM"></iframe>
