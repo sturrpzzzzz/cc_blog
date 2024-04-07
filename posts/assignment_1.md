@@ -69,6 +69,32 @@ I struggled a little bit at first because I didn't expect `strokeWeight()` to be
 
 Look at this cutie, all wide-eyed.
 
+Then, I started drawing Womp's face when mad. It was simple, literally just two half circles inside each other.
+
 ![mad](static/Screenshot 2024-03-25 020805.png)
+
+Womp's mildly annoyed face was a little more complicated to make, but was simple enough regardless.
+
+![annoyed](static/Screenshot 2024-03-25 020914.png)
+
+Then, to give each shape different stroke widths and fill colours, I used `push()` `pop()` inside the conditional operators.
+
+[pushpopagain](static/Screenshot 2024-03-25 021234.png)
+
+Here is the sketch for Womp's expressions.
+
+<iframe src="https://editor.p5js.org/sturrpzzzzz/full/jy-kGvP1L"></iframe>
+
+## Bubbles
+
+The bubbles were simple because I had made them before, so I'm not sure what to comment on this.
+
+<iframe src="https://editor.p5js.org/sturrpzzzzz/full/YfJ0ad8ai"></iframe>
+
+## Combined sketch
+
+Like I said, my idea was inspired by a spring sketch, so here were the original variables copied from the originl spring sketch. The variables and variables' values change as my sketch gets developed.
+
+![original variables](static/Screenshot 2024-03-25 032331.png)
 
 
