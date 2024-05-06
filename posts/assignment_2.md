@@ -17,15 +17,15 @@ Before I came up with my final design concept, I made a few sketches to play aro
 
 First one is a shooting text sketch, in which when you click on the canvas, random words shoots out from your cursor in different directions.
 
-<iframe style="width: 400px; height: 400px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/_BueDvs99"></iframe>
+<iframe style="width: 400px; height: 442px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/_BueDvs99"></iframe>
 
 Second is an oscillating sphere made up of dots. I unfortunately lost the link to the video I learnt this from, since it was not on YouTube but another platfrom.
 
-<iframe style="width: 540px; height: 960px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/sHkwspOB5"></iframe>
+<iframe style="width: 540px; height: 1002px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/sHkwspOB5"></iframe>
 
 Last one was not chaotic in my opinion, but it was worth learning. It was inspired by p5js's example on [flocking](https://p5js.org/examples/simulate-flocking.html).
 
-<iframe style="width: 400px; height: 400px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/fy3tlq-si"></iframe>
+<iframe style="width: 400px; height: 442px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/fy3tlq-si"></iframe>
 
 # Research
 
@@ -39,13 +39,13 @@ Same approach on assignment 1: I make different elements of my sketch in differe
 
 This one was pretty simple. I made the eye corners using bezier curves, then declared 2 variables with values of the map method of the mouse co-ord between the canvas width/height and the *box* (using variable r) that the iris is contained in. Then, these variables are used as arguments for the iris ellipse's arguments.
 
-<iframe style="width: 800px; height: 800px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/3x6J7uizf"></iframe>
+<iframe style="width: 800px; height: 842px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/3x6J7uizf"></iframe>
 
 ## Pulsation
 
 This was an idea I got from stackoverflow (reference commented in source code). I wanted to include this effect as my friend described that their iris was widening and shrinking (I'm not sure what the correct term for this is, apparently this is one of the symptoms of overdosage).
 
-<iframe style="width: 640px; height: 480px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/psFjtqFNF"></iframe>
+<iframe style="width: 640px; height: 522px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/psFjtqFNF"></iframe>
 
 ## Oscillating Sphere
 
@@ -84,7 +84,7 @@ I stumbled upon [this sketch](https://editor.p5js.org/andreiongd/sketches/Fit4bu
 
 This is my version of the sketch.
 
-<iframe src="https://editor.p5js.org/sturrpzzzzz/full/6TettVls3"></iframe>
+<iframe style="width: 800px; height: 842px; overflow: hidden;" scrolling="no" src="https://editor.p5js.org/sturrpzzzzz/full/6TettVls3"></iframe>
 
 I love using `map()`, as I can use this method anywhere and it is great for creating interactive elements. You are going to see me using `map()` several times in my sketch, but in this one specifically, I used it to change the colour of the words.
 
@@ -107,7 +107,7 @@ for (i = 0; i < 15; i++) {
 
 # Final sketch. 
 
-<iframe src="https://editor.p5js.org/sturrpzzzzz/full/shzmbOMaz"></iframe>
+<iframe style="width: 1000px; height: 1042px; overflow: hidden;" scrolling="no" src="https://editor.p5js.org/sturrpzzzzz/full/shzmbOMaz"></iframe>
 
 I'm not really sure how to set the width and height if the canvas size is (innerWidth, innerHeight).
 
