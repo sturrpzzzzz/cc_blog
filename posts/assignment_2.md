@@ -51,7 +51,7 @@ This was an idea I got from stackoverflow (reference commented in source code). 
 
 I learnt about the oscillating sphere not long before I started working on this assignment, and thought it was a good idea to implement it in my sketch because, idk, the oscillating sphere is super fascinating. I learnt from the [tutorial from Patt Vira](https://www.youtube.com/watch?v=atNUa7MdhYs&t=130s). All the process explanation is in the comments of my final sketch. While I was at it, I decided to apply the pulsation and the colour change in accordance to mouse position. The colour change was pretty simple, using map method, just the exact same thing as moving iris position, just applied to stroke colour. I wanted to make the iris turn from green to red as the mouse goes up. Combined with the moving iris, the sketch is going to start with the green iris looking down, representing consciousness, and the iris turns red as it goes up, representing how their eyes roll up and their health gets progressively endangered as a consequence of overdosage.
 
-<iframe style="width: 600px; height: 600px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/NRFP_-JR2"></iframe>
+<iframe style="width: 600px; height: 642px; overflow: hidden;" scrolling="no" frameborder="0" src="https://editor.p5js.org/sturrpzzzzz/full/NRFP_-JR2"></iframe>
 
 
 
