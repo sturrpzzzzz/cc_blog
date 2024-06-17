@@ -1,6 +1,6 @@
 ---
 title: Alice's Bizarre Coding Adventure.
-published_at: 2024-03-06
+published_at: 2024-06-09
 snippet: Assignment 3.
 disable_html_sanitization: true
 ---
