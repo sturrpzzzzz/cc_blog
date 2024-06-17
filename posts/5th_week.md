@@ -266,10 +266,13 @@ find_i is a function that calculates the starting index of a pixel in the img_da
 c.y is the vertical position of the pixel. this.ctx.canvas.width is the total number of pixels in one row of the canvas. Multiplying c.y by the canvas width gives the total number of pixels in all rows above the current row. Adding c.x gives the total number of pixels from the start of the image to the current pixel. I'm not sure what * 4 does in this case.
 This is as far as I could go because I didn't understand what was happening in the rest of the code...
 
-# Glitch Sketch
+# [Glitch Sketch](https://sturrpzz-glitch-self-83.deno.dev)
+
+So, I'm not sure if this is allowed, but I found a p5.glitch library and used that to create my glitched portrait. It was not much struggle because there was a detailed guide on how to use it, I just had to change the paramenters and stuff. Thank god for libraries.
 
 
 # Question 3
+
 I believe glitch fits in the zaniness category the most. In Ngai's definition on zaniness, she talks about the extremity of the performers' activities, in which they often portray exaggerated movements, often hyperactive or chaotic. While zaniness is often humourous or entertaining, it can also provoke discomfort or anxiety, which goes hand in hand with the aesthetic of glitch. Glitches are something that are preferrably avoided when not intentionally induced, since it implies an error or malfunction in a system or machine, which, most of the time, invokes negative or unnerved feelings. However, glitches always provoke a sense of fascination based on how it is always unpredictable, and it never provides the same result despise always having the same kinds of patterns. A lot of people find glitches aesthetically pleasing because it is not completely chaotic but still so flexible and irregular.
 Glitches don't fit in cuteness aesthetic for obvious reasons, but it also doesn't fit in her definition of interesting. Interesting promps a sense of reflective judgement rather than instant gratification, or immediate emotional response. Interesting means to sustain attention, and focuses on consumption of knowledge. Ngai also states that interesting implies something that appears in everyday life. These are the opposite of glitch, which is why glitches don't fit in the interesting aesthetic category.
 To answer how glitches affect effective complexity, let's quickly define glitch and effective complexity:
